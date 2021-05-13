@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  padding: 70px;
+  margin: auto;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.value {
+  padding: 15px;
+}

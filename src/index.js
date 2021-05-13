@@ -1,4 +1,4 @@
-// import './styles.css';
+import './styles.css';
 
 const refs = {
   days: document.querySelector('[data-value="days"]'),
@@ -10,7 +10,7 @@ const refs = {
 class CountdownTimer {
   constructor({ selector, targetDate, onTimeChange }) {
     this.dateIntervalId = null;
-    this.selector = selector;
+    this.selector = selector; //?
     this.targetDate = targetDate;
     this.onTimeChange = onTimeChange;
   }
@@ -47,7 +47,7 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1', //?
-  targetDate: new Date('Jul 17, 2021'),
+  targetDate: new Date('Jul 17, 2022'),
   onTimeChange: updateTimeComponents,
 });
 
